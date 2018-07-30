@@ -8,13 +8,13 @@ Clone the repo:
 
 > cd simple-rest-service
 
-Build the service in a spring boot container
+Build the service in a spring boot docker container
 > ./gradlew clean build docker
 
 Run the service in a docker container for isolation
 > docker run -p 8080:8080 -t fletcher68/simple-rest-service
 
-Run the service in your local environment
+Or Run the service in your local environment without docker
 > java -jar ./build/libs
 
 Test the rest service
