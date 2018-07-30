@@ -1,6 +1,6 @@
 # simple-rest-service
 
-This is a simple rest service running in a spring boot deployed in a docker container
+This is a simple rest service running in spring boot deployed in a docker container
 
 Clone the repo:
 
