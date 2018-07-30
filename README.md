@@ -1,4 +1,4 @@
-# simple-rest-service
+<h1>Simple Rest Service</h1>
 
 This is a simple rest service running in spring boot deployed in a docker container.
 The cool thing about spring boot is you don't have to deploy a war into a servlet
