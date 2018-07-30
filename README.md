@@ -2,7 +2,7 @@
 
 This is a simple rest service running in spring boot deployed in a docker container
 
-Clone the repo:
+In a terminal window, clone the repo:
 
 > git clone https://github.com/fletcher86/simple-rest-service.git
 
@@ -17,7 +17,7 @@ Run the service in a docker container for isolation
 Or Run the service in your local environment without docker
 > java -jar ./build/libs/simple-rest-service-0.1.0.jar
 
-Test the rest service
+In another terminal window, test the rest service
 
 > curl localhost:8080
 
