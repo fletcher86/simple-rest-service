@@ -1,6 +1,12 @@
 # simple-rest-service
 
-This is a simple rest service running in spring boot deployed in a docker container
+This is a simple rest service running in spring boot deployed in a docker container.
+The cool thing about spring boot is you don't have to deploy a war into a servlet
+container.  This spring boot app already has tomcat embedded and wires your controller(s)
+into tomcat directly so you don't have to worry about conflicting jars between your
+app and the servlet containers jars.  The jar produced from this build is 
+executable (or can be made executable) and contains all the necessary jars to run 
+the application.
 
 In a terminal window, clone the repo:
 
