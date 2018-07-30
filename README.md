@@ -21,3 +21,8 @@ Test the rest service
 
 > curl localhost:8080
 
+Produces the following output:
+
+<pre>
+Greetings from Spring Boot!
+</pre>
